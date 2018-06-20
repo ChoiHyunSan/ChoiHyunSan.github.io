@@ -1,0 +1,177 @@
+<!DOCtYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>테스트 문제</title>
+        <Style>
+             body {  
+                margin: 0 10%;   
+                padding: 20px; 
+                background-color:rgb(174, 174, 247);
+            } 
+            a {
+                text-decoration: none; 
+                color: black;
+            }
+            
+            
+            div.menu:hover{
+                width: 13%;
+                
+                transition-timing-function: linear;
+                background: rgb(174,174,247);
+                color: white;
+                text-align: center; 
+                font-size: 30px;
+                background: radial-gradient(white,rgb(174, 174, 247));
+                padding-top: 0.5%
+             
+               
+
+            }
+            .menu{
+                float: left; 
+                margin:  0px;
+                position:absolute;
+                left: 12.4%; 
+                top: 30%; 
+                width: 10%;
+                height: 7%;
+                background: rgb(153, 153, 214);
+                background: radial-gradient(white,rgb(174, 174, 247));
+                border-radius: 10px;
+                
+                
+               /* border: 1px solid black;*/
+                
+                transition-property: width background;
+                transition-duration: 0.3s;
+                line-height: 50px;
+                text-align: center;
+                z-index: 0;
+                font-size: auto;
+               
+            }
+            
+            .home{
+                margin-top:0;
+                margin-bottom: 0;
+                border: solid white;
+                background-color: white; 
+            }
+            .text{
+                
+                text-align: left;
+            }    
+            </style>
+            
+            <script>
+                    function mun1() {
+                      document.getElementById("demo").innerHTML = "이펙터는 그래픽 디자인의 분야중 하나입니다 정답: 이펙터 ";
+                      document.getElementById("demo").style.color= "red";
+                    }
+                    function mun2() {
+                      document.getElementById("demo2").innerHTML = "시나리오는 기획의 분야중 하나입니다 정답: 시나리오";
+                      document.getElementById("demo2").style.color= "red";
+                    }
+                    function mun3() {
+                      document.getElementById("demo3").innerHTML = "배경은 그래픽의 분야중 하나입니다 정답: 배경";
+                      document.getElementById("demo3").style.color= "red";
+                    }
+                    function mun4() {
+                      document.getElementById("demo4").innerHTML = "네트워크는 데이터 송수신등 서버를 관리하는 역활입니다 정답: 네트워크";
+                      document.getElementById("demo4").style.color= "red";
+                    }
+                    function mun5() {
+                      document.getElementById("demo5").innerHTML = "디렉터는 국내에서 PD(Project Director)라고도 불립니다 정답: 디렉터";
+                      document.getElementById("demo5").style.color= "red";
+                    }
+            </script>
+    <body>
+        
+                        
+       
+        <div class="home">
+            <center><span><a href="start-page.html"><h1><img src="reset2.png" style="width:70%; height: 10%;"></h1></a></span>
+            <hr>
+                <h1 style="text-align: center;">테스트 문제</h1>
+            <div class="text" style="width: 65%;">
+                <hr>
+                <div >                        
+                    <div style="top:250px" class="menu"><a href="start-page.html">HOME</a></div>
+                    <div style="top:325px" class="menu"><a href="game-program.html">프로그래밍</a></div>
+                    <div style="top:400px" class="menu"><a href="game-grapic.html">그래픽</a></div>
+                    <div style="top:475px" class="menu"><a href="game-making.html">기획</a></div>
+                    <div style="top:550px" class="menu"><a href="test.html">테스트</a></div>
+                </div>
+                <div class="all">
+                    <div class="show">
+                    <fieldset >            
+                        <fieldset>
+                            <br>
+                            <legend>문제 1번- 다음 중 프로그래밍 분야가 아닌것은?</legend>
+                            <p>
+                            게임플레이<input type="radio" name="1" value="no">
+                            물리 엔진<input type="radio" name="1" value="no">
+                            이펙터<input type="radio" name="1" value="no">
+                            개발 도구<input type="radio" name="1" value="no">
+                            네트워크<input type="radio" name="1" value="no"></p>
+                            <button onclick="mun1()">정답 및 해설</button>
+                            <p id="demo"></p>
+                        </fieldset>  
+                           
+                        <fieldset>
+                            <br>
+                            <legend style="color:black;">문제 2번- 다음 중 그래픽 분야가 아닌것은?</legend>
+                            <p>
+                                원화가 <input type="radio" name="2" value="no">
+                                모델러 <input type="radio" name="2" value="no">
+                                콘텐츠 <input type="radio" name="2" value="no">
+                                레벨 <input type="radio" name="2" value="no">
+                                시나리오 <input type="radio" name="2" value="no"></p>
+                                <button onclick="mun2()">정답 및 해설</button>
+                                <p id="demo2"></p>
+                        </fieldset>
+                        <fieldset>
+                            <br>
+                            <legend style="color:black;">문제 3번- 다음 중 기획 분야가 아닌것은?</legend>
+                            <p>
+                                디렉터 <input type="radio" name="3" value="no">
+                                시스템 <input type="radio" name="3" value="no">
+                                컨셉 <input type="radio" name="3" value="no">
+                                배경 <input type="radio" name="3" value="no">
+                                시나리오 <input type="radio" name="3" value="no"></p>
+                                <button onclick="mun3()">정답 및 해설</button>
+                                <p id="demo3"></p>
+                            </fieldset>       
+                        <fieldset>
+                            <br>
+                            <legend style="color:black;">문제 4번- 프로그래밍 분야 중 송수신 분야를 담당하는 것은?</legend>
+                            <p>
+                                레벨 <input type="radio" name="4" value="no">
+                                네트워크 <input type="radio" name="4" value="no">
+                                물리 엔진 <input type="radio" name="4" value="no">
+                                이펙터 <input type="radio" name="4" value="no">
+                                개발 도구 <input type="radio" name="4" value="no"></p>
+                                <button onclick="mun4()">정답 및 해설</button>
+                                <p id="demo4"></p>
+                        </fieldset>    
+                        <fieldset>
+                            <br>
+                            <legend style="color:black;">문제 5번- PD라고도 불리는 분야는?</legend>
+                            <p>
+                                디렉터 <input type="radio" name="5" value="no">
+                                콘텐츠 <input type="radio" name="5" value="no">
+                                게임플레이 <input type="radio" name="5" value="no">
+                                모델러 <input type="radio" name="5" value="no">
+                                배경 <input type="radio" name="5" value="no"></p>
+                                <button onclick="mun5()">정답 및 해설</button>
+                                <p id="demo5"></p>
+                        </fieldset>
+                    </fieldset>
+                </div>
+                </div>
+            </div>
+        </div>
+     </body>
+</html>
